@@ -1,9 +1,14 @@
+import Hero from "../components/Hero/Hero";
+import Specials from "../components/Specials/Specials";
+import Testimonials from "../components/Testimonials/Testimonials";
+
 function HomePage() {
     return (
-        <div>
-            <h1>Home Page</h1>
-            <p>Welcome to Little Lemon</p>
-        </div>
+        <>
+           <Hero />
+           <Specials />
+           <Testimonials />
+        </>
     );
 }
 

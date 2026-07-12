@@ -1,0 +1,37 @@
+.specials {
+    padding: 120px 8% 80px;
+}
+
+.specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specials-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.specials-header button {
+    background-color: #F4CE14;
+    color: #333;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.specials-header button:hover {
+    background-color: #e5bf12;
+}
+
+.specials-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
