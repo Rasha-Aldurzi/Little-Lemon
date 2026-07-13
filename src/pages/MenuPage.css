@@ -1,0 +1,26 @@
+.menu-page {
+    padding: 70px 8%;
+    background-color: #ffffff;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu-header h1 {
+    font-size: 3rem;
+    color: #495e57;
+    margin-bottom: 15px;
+}
+
+.menu-header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}

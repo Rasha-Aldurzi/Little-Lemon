@@ -3,7 +3,7 @@ import MainLayout from "./layout/MainLayout";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import MenuPage from "./pages/MenuPage";
-import BookingPage from "./pages/BookingPage";
+import ReservationPage from "./pages/ReservationPage";
 import OrderOnlinePage from "./pages/OrderOnlinePage";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <Route path="/" end element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/menu" element={<MenuPage />} />
-            <Route path="/reservations" element={<BookingPage />} />
+            <Route path="/reservations" element={<ReservationPage />} />
             <Route path="/order-online" element={<OrderOnlinePage />} />
         </Route>
       </Routes>
