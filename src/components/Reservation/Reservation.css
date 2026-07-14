@@ -79,3 +79,21 @@
 .reservation-form button:hover {
     background-color: #e5bc00;
 }
+
+@media (max-width: 768px) {
+  .reservation {
+    padding: 40px 5%;
+  }
+
+  .reservation h1 {
+    font-size: 32px;
+  }
+
+  .reservation p {
+    font-size: 16px;
+  }
+
+  .reservation-form {
+    padding: 25px;
+  }
+}
