@@ -1,0 +1,41 @@
+.order-online {
+  background-color: #f4f1ea;
+  min-height: calc(100vh - 80px);
+  padding: 60px 8%;
+}
+
+.order-online h1 {
+  text-align: center;
+  color: #495e57;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.order-online p {
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  max-width: 650px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.order-online-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .order-online {
+    padding: 40px 5%;
+  }
+
+  .order-online h1 {
+    font-size: 32px;
+  }
+
+  .order-online p {
+    font-size: 16px;
+  }
+}

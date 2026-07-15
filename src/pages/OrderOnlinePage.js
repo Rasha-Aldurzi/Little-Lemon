@@ -1,5 +1,7 @@
+import OrderOnline from "../components/OrderOnline/OrderOnline";
+
 function OrderOnlinePage() {
-  return <h1>Order Online Page</h1>;
+  return <OrderOnline />;
 }
 
 export default OrderOnlinePage;
