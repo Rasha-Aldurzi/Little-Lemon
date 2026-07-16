@@ -5,9 +5,9 @@ import Footer from "./Footer";
 function MainLayout() {
     return (
         <>
-        <Header />
-        <Main />
-        <Footer />
+            <Header />
+            <Main />
+            <Footer />
         </>
     );
 }

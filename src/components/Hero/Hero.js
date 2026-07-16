@@ -1,5 +1,6 @@
 import "./Hero.css";
 import heroImage from "../../assets/images/hero-image.jpg";
+import { NavLink } from "react-router-dom";
 
 function Hero() {
     return (
@@ -13,7 +14,9 @@ function Hero() {
                     focused on traditional recipes served with a modern twist.
                 </p>
 
-                <button>Reserve a Table</button>
+                <NavLink to="/reservations" className="hero-btn">
+                    Reserve a Table
+                </NavLink>
             </div>
             <div className="hero-image">
                 <img src={heroImage} alt="Delicious Mediterranean food" />

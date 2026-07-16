@@ -1,5 +1,6 @@
 import "./Specials.css";
 import SpecialCard from "../SpecialCard/SpecialCard";
+import { NavLink } from "react-router-dom";
 
 import greekSalad from "../../assets/images/greek-salad.jpg";
 import bruschetta from "../../assets/images/burschetta.jpg";
@@ -10,7 +11,9 @@ function Specials() {
         <section className="specials">
             <div className="specials-header">
                 <h2>This week's specials!</h2>
-                <button>Online Menu</button>
+                <NavLink to="/menu" className="specials-btn">
+  Online Menu
+</NavLink>
             </div>
 
             <div className="specials-cards">

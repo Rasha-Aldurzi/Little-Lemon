@@ -31,16 +31,20 @@
     margin-bottom: 25px;
 }
 
-.hero-content button {
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
     background-color: #F4CE14;
     color: #333;
-    border: none;
     padding: 15px 30px;
     border-radius: 16px;
     font-size: 1rem;
     font-weight: bold;
-    cursor: pointer;
     transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #e5bc00;
 }
 
 .hero-image {

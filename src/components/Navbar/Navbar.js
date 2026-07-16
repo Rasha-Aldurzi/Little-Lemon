@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 function Navbar() {
     return (
-        <nav>
-            <img src={logo} alt="Little Lemon Logo"/>
+        <nav className="navbar">
+            <NavLink to="/">
+                <img src={logo} alt="Little Lemon Logo" />
+            </NavLink>
             <ul>
                 <li>
                     <NavLink to="/">Home</NavLink>

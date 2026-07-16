@@ -1,4 +1,5 @@
 import "./SpecialCard.css";
+import { NavLink } from "react-router-dom";
 
 function SpecialCard({image, title, price, description}) {
     return (
@@ -13,7 +14,9 @@ function SpecialCard({image, title, price, description}) {
 
                 <p>{description}</p>
 
-                <button>Order a Delivery</button>
+                <NavLink to="/order-online" className="delivery-btn">
+                    Order a Delivery
+                </NavLink>
             </div>
         </div>
     )

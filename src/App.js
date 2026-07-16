@@ -9,10 +9,9 @@ import ConfirmedBookingPage from "./pages/ConfirmedBookingPage";
 
 function App() {
   return (
-    <>
       <Routes>
         <Route element={<MainLayout />}>
-            <Route path="/" end element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/menu" element={<MenuPage />} />
             <Route path="/reservations" element={<ReservationPage />} />
@@ -20,7 +19,6 @@ function App() {
             <Route path="/confirmed" element={<ConfirmedBookingPage />} />
         </Route>
       </Routes>
-    </>
   );
 }
 
